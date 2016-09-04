@@ -27,3 +27,5 @@
 *.exe
 *.out
 *.app
+*.suo
+/MatrixManipulations/MatrixManipulations.VC.*
