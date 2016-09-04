@@ -16,6 +16,9 @@ struct student
 	int sex;
 };
 
+void EnterStudents(int const studentsCount, student* const students);
+
+void PrintStudents(int const studentsCount, student* const students);
 
 void main()
 {
@@ -23,6 +26,14 @@ void main()
 	std::cout << "Enter students count: ";
 	std::cin >>  studentsCount;
 	student* students = new student[studentsCount];
+	EnterStudents(studentsCount, students);
+	PrintStudents(studentsCount, students);
+	_getch();
+	delete[] students;
+}
+
+void EnterStudents(int const studentsCount, student* const students)
+{
 	for (size_t i = 0; i < studentsCount; i++)
 	{
 		std::cout << "Enter student #" << i + 1 << " first name: ";
@@ -34,6 +45,10 @@ void main()
 		std::cout << "Enter student #" << i + 1 << " sex (0 - female, 1 - male: ";
 		std::cin >> students[i].sex;
 	}
+}
+
+void PrintStudents(int const studentsCount, student* const students)
+{
 	for (size_t i = 0; i < studentsCount; i++)
 	{
 		std::cout
@@ -45,6 +60,4 @@ void main()
 			<< (students[i].sex == 0 ? "Female" : students[i].sex == 1 ? "Male" : "Unknown")
 			<< std::endl;
 	}
-	_getch();
-	delete[] students;
 }
