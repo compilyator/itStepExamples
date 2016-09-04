@@ -28,8 +28,9 @@
 *.out
 *.app
 *.suo
-/MatrixManipulations/*.VC.*
-/MatrixManipulations/*/x86/*
-/MatrixManipulations/*/x64/*
-/MatrixManipulations/x64
-/MatrixManipulations/x86
+/*/*.VC.*
+/*/*/x86/*
+/*/*/x64/*
+/*/Debug/*
+/*/x64
+/*/x86
