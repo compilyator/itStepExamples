@@ -28,4 +28,10 @@
 *.out
 *.app
 *.suo
-/MatrixManipulations/MatrixManipulations.VC.*
+/MatrixManipulations/*.VC.*
+/MatrixManipulations/MaxRandomMatrix/x86/*
+/MatrixManipulations/MaxRandomMatrix/x64/*
+/MatrixManipulations/SumRandomMatrix/x86/*
+/MatrixManipulations/SumRandomMatrix/x64/*
+/MatrixManipulations/x64
+/MatrixManipulations/x86

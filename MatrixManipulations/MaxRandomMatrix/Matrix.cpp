@@ -1,7 +1,6 @@
 #include <iostream>
 #include <time.h>
 #include <iomanip>
-#include <conio.h>
 
 
 int** createMatrix(size_t const rows, size_t const columns)
