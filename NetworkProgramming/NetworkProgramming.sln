@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExample", "HttpCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRequestExample", "WebRequestExample\WebRequestExample.csproj", "{90F28141-EF0D-435F-8EA7-E3182F03DF17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSiteForHttpExamples", "DemoSiteForHttpExamples\DemoSiteForHttpExamples.csproj", "{384066A6-1D7C-44F8-9802-6BC4A9BA31F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{90F28141-EF0D-435F-8EA7-E3182F03DF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F28141-EF0D-435F-8EA7-E3182F03DF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F28141-EF0D-435F-8EA7-E3182F03DF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384066A6-1D7C-44F8-9802-6BC4A9BA31F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384066A6-1D7C-44F8-9802-6BC4A9BA31F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384066A6-1D7C-44F8-9802-6BC4A9BA31F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384066A6-1D7C-44F8-9802-6BC4A9BA31F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
