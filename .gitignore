@@ -43,6 +43,7 @@ Thumbs.db
 *.log
 [Bb]in
 [Dd]ebug*/
+[Pp]ackages
 *.lib
 *.sbr
 obj/
